@@ -151,6 +151,13 @@ export const songPaths = {
             "cover": "tracks/Ma Siwei/P.E.I. Mixtape Vol. 1/cover.jpg"
         },
         {
+            "album": "P.E.I. Mixtape Vol. 2",
+            "artist": "Ma Siwei",
+            "title": "崂山道士 (Taoist Monk From Mount Lao).mp3",
+            "path": "tracks/Ma Siwei/P.E.I. Mixtape Vol. 2/Tracks/崂山道士 (Taoist Monk From Mount Lao).mp3",
+            "cover": "tracks/Ma Siwei/P.E.I. Mixtape Vol. 2/cover.jpg"
+        },
+        {
             "album": "Nokia",
             "artist": "Ma Siwei",
             "title": "Nokia (Prod. Harikiri)",
