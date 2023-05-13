@@ -1,0 +1,40 @@
+.row {
+    width: 70%;
+}
+
+.shadowBox {
+    margin-bottom: -20px;
+    box-shadow: 0 130px 30px 0px #FFFFFF;
+    z-index: 2000;
+}
+
+.blank {
+    height: 100px;
+}
+
+.divider {
+    position: relative;
+    top: 50px;
+}
+
+.Bot {
+    position: relative;
+    top: 40px;
+}
+
+h2 {
+    position: relative;
+    top: 0px;
+}
+
+.intro {
+    font-size: 26px;
+    font-family: 'Roboto light';
+    font-weight: 400;
+    color: black;
+    margin-top: 20px;
+}
+
+.art {
+    margin-top: 30px;
+}

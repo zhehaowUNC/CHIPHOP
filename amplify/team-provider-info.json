@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-chiphop-dev-25759-authRole",
+      "UnauthRoleArn": "arn:aws:iam::701003500368:role/amplify-chiphop-dev-25759-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::701003500368:role/amplify-chiphop-dev-25759-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-chiphop-dev-25759-deployment",
+      "UnauthRoleName": "amplify-chiphop-dev-25759-unauthRole",
+      "StackName": "amplify-chiphop-dev-25759",
+      "StackId": "arn:aws:cloudformation:us-east-1:701003500368:stack/amplify-chiphop-dev-25759/7fbffd40-f15b-11ed-a61c-121750aa7d99",
+      "AmplifyAppId": "d287dxkrfvf7ml"
+    }
+  }
+}

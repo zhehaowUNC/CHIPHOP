@@ -1,0 +1,45 @@
+.aCard {
+    width: 25%;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.aCard p {
+    text-align: center;
+    margin-top: -5px;
+    font-size: 110%;
+    margin-bottom: 10px;
+    color: black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.aCard img {
+    padding: 20px;
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.aCard .col {
+    margin-top: 10px;
+}
+
+.aCard .col:hover {
+    box-shadow: 4px 4px 11px 11px lightgrey;
+    transition: 0.1s ease-in-out;
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width: 800px) {
+    .aCard {
+        width: 33.3333%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .aCard img {
+        padding: 13px
+    }
+}

@@ -1,0 +1,11 @@
+#blackshit {
+    background-color: black;
+    opacity: 80%;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 998;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}

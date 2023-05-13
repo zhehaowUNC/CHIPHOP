@@ -1,0 +1,92 @@
+.user-comment {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.comment-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.comment-username {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 75%;
+}
+
+.comment-timestamp {
+    font-size: 11px;
+    color: rgb(129, 129, 129);
+    position: relative;
+    top: 1px
+}
+
+.comment-text {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 100%;
+}
+
+.comment-content {
+    font-size: 14px;
+    line-height: 1.5;
+    word-break: break-word;
+}
+
+.delete-comment-button {
+    background-color: white;
+    text-align: center;
+    color: black;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 4px 8px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: -25px;
+    margin-left: auto;
+    margin-right: 0;
+    position: relative;
+    bottom: 16px;
+    transition: background-color 0.1s ease-in-out;
+}
+
+.delete-comment-button:hover {
+    background-color: rgb(202, 202, 202);
+    transition: background-color 0.1s ease-in-out;
+}
+
+.delete-comment-button-songcard:hover {
+    background-color: rgb(202, 202, 202);
+    transition: background-color 0.1s ease-in-out;
+}
+
+.delete-comment-button-songcard {
+    background-color: white;
+    text-align: center;
+    color: black;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    right: 20px;
+    bottom: 36px;
+    padding: 4px 8px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: -25px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    transition: background-color 0.1s ease-in-out;
+}

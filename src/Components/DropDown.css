@@ -1,0 +1,65 @@
+ul li {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.wrapper p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.wrapper li {
+    margin-top: 50px;
+}
+
+.drop {
+    transition: height 0.2s ease-in-out;
+    position: fixed;
+    width: 100%;
+    height: 0px;
+    background: rgba(0, 0, 0, 0.95);
+    visibility: visible;
+    z-index: -1;
+}
+
+.drop li {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.changed {
+    transition: height 0.2s ease-in-out;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.95);
+    visibility: visible;
+}
+
+.changed li {
+    opacity: 1;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.changestyle {
+    transition: height 0.2s ease-in-out;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.95);
+    visibility: visible;
+}
+
+.dropstyle {
+    transition: height 0.2s ease-in-out;
+    position: fixed;
+    width: 100%;
+    height: 0px;
+    background: rgba(0, 0, 0, 0.95);
+    visibility: visible;
+    z-index: -1;
+}

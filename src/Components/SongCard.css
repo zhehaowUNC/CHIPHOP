@@ -1,0 +1,132 @@
+/* .scard {
+    height: 100px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+#overall {
+    display: inline-block;
+}
+
+.scarddamn {
+    height: 100px;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+    display: inline-block;
+}
+
+.overCard {
+    width: 50%;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 600px) {
+    .overCard {
+        width: 100%;
+        display: inline-block;
+    }
+}
+
+
+/* .scard :hover {
+    background-color: #f5f5f5;
+    transition: 0.2s ease-in-out;
+    border-radius: 6px;
+} */
+
+.scard {
+    background-color: white;
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+}
+
+.scarddamn {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+}
+
+.cardcontainer {
+    width: 50%;
+    display: inline-flex;
+}
+
+.colum {
+    margin-right: 10px;
+    width: 100%;
+}
+
+.colum div {
+    padding: 5px 0;
+}
+
+.songname {
+    font-family: "Roboto";
+    font-size: 26px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
+}
+
+.albumname {
+    width: 100%;
+    font-family: "Roboto light";
+    font-size: 15px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.info {
+    width: 900px;
+    position: relative;
+    left: 16px;
+    top: 12px;
+    text-overflow: ellipsis;
+}
+
+
+/* .card {
+    margin-left: 10px
+} */
+
+.image img {
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+
+/* .songname {
+    position: relative;
+    left: -5px;
+    top: 6px;
+    font-family: "Roboto";
+    font-size: 23px;
+}
+
+.albumname {
+    position: relative;
+    font-family: "Roboto light";
+    left: -5px;
+    top: 13px;
+    font-size: 16px;
+}
+
+.dd {
+    position: relative;
+    top: -200px;
+}
+
+.info {
+    width: 800px;
+    font-size: 18px;
+    text-overflow: ellipsis;
+}
+
+img {
+    width: 90px;
+    margin: 5px 10px 10px 0px;
+}  */

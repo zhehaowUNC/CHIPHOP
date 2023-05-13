@@ -1,0 +1,49 @@
+.topMenu {
+    width: 100%;
+    height: 80px;
+    background-color: #161616;
+    box-shadow: 0px 11px 11px rgba(0, 0, 0, 0.3);
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 0px;
+}
+
+ul div {
+    line-height: 80px;
+    width: 140px;
+    height: 80px;
+    display: inline;
+    color: white;
+    margin-left: 30px;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Roboto';
+    font-weight: bold
+}
+
+.options {
+    position: relative;
+    right: 155px;
+}
+
+ul .material-icons {
+    height: 50px;
+    width: 50px;
+    line-height: 45px;
+    visibility: hidden;
+    margin-left: 0;
+    position: relative;
+    bottom: 2px;
+    right: 13px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .options {
+        visibility: hidden;
+    }
+    ul .material-icons {
+        visibility: visible;
+    }
+}
