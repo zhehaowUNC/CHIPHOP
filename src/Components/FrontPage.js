@@ -61,8 +61,7 @@ export const FrontPage = () => {
     <h2>Preface</h2>
     <p className='intro'>This site is committed to the preservation of high-quality Chinese Hip-Hop music works 
     that are either lesser-known to most listeners or have been taken down from major music platforms. 
-    The works featured on this site might be subject to the site owner's personal preferences and are merely a tip of the iceberg 
-    of China's burgeoning Hip-Hop scene. Any form of contribution to this site
+    Any form of contribution to this site
     is welcome and much appreciated.</p>
 <ConBut/>
 
