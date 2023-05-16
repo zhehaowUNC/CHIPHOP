@@ -169,7 +169,7 @@ export const RegisterPage = () => {
     <p style={{marginBottom : '4px'}}>Email</p>
     <input onChange={handleInput}id='email' type={'text'} placeholder = 'Your Email...' required></input>
       
-            <p style={{marginBottom : '4px'}}>Password (At Least 8 Characters, Must Contain 1 Number, 1 Uppercase and 1 Lowercase Letter)</p>
+            <p style={{marginBottom : '4px'}}>Password (At Least 8 Characters and No Special Characters, Must Contain At Least 1 Number, 1 Uppercase and 1 Lowercase Letter)</p>
             <input onChange={handleInput}id='password' type={'password'} required></input>
             <label>
             <div id = 'submit' className = 'waves-effect waves-light' onClick={handleSubmit} >
